@@ -6,7 +6,7 @@ def create
  else
   @prototype = @comment.prototype
   @comments = @prototype.comments
-  render "prototype/show"
+  render "prototypes/show"
  end
 end
 
